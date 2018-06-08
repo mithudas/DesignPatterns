@@ -1,0 +1,10 @@
+If we waant different type of pizza stores which have different style of baking , cutting then this ownt work differrently.
+
+NyStyleFactory
+ChicagoStyleFactory
+
+one possible way is
+create separate factory
+
+PizzaStore pizzastore = pizzaStore(new NyStyleFactory());
+PizzaStore pizzastore =pizzaStore(new ChicagoStyleFactory());

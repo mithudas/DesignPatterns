@@ -1,0 +1,2 @@
+parent class can be abstract/ interface which will have abstract method which is a factory method
+all the subclass needs to implement the factory method which will create objects based on its choices

@@ -1,0 +1,13 @@
+1.Identify the aspects of your application which may vary.Separate them from what stays same.
+2.Classes should be open for extension and close for modification.
+This means if we need to add new functionality in our application then we dont need to change existing code
+3. Choose interfaces over implementation.
+This means we should prefer using interfaces than using concrete class implementation.
+we shouldnot use new operator to create new objects much in a class.
+4.Favor composition over interfaces.
+5.Dont call us we will call you
+6. Single Responsibilty principle says a class should have only one reason to change.
+ If there are two reasons then you need to change the class for different reasons.
+ It also relates with cohesion. one class is highly cohesive if it has only related set of functions.
+
+
